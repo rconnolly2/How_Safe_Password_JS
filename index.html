@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿How safe is your password?</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>How secure is My Password</h1>
+    <h2><span id="check-icono">✔ </span>The #1 Password Strength Tool. Trusted and used by millions.</h2>
+    <div class="input-usuario">
+        <input type="password" class="input-texto" id="input-texto" onchange="CheckSec()"><br>
+        <select name="tipo-sistema" id="tipo-sistema" onchange="CheckSec()">
+            <option value="0">CPU</option>
+            <option value="1">GPU</option>
+            <option value="2">Grid</option>
+        </select>
+    </div>
+
+    <br><br><br>
+    <h1 id="pass_en_wordlist"></h1>
+
+    <h3 id="output-tipo"></h3>
+    <h1 id="tiempo-resultado"></h1>
+    <h3 id="to-crack-your"></h3>
+
+
+    <h6 id="creditos">Made with <span id="corazon">❤</span> by <a href="https://github.com/rconnolly2">Robert Connolly</a></h6>
+
+    <script src="codigo.js"></script>
+</body>
+</html>

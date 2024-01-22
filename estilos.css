@@ -1,0 +1,45 @@
+h1, h2, h3 {
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(85, 176, 85);
+}
+
+.input-usuario {
+    display: flex;
+    justify-content: center;
+}
+
+.input-texto {
+    height: 40px;
+    font-size: 20px;
+}
+
+#check-icono {
+    color: blue;
+}
+
+#pass_en_wordlist {
+    color: brown;
+    display: none;
+}
+
+#creditos {
+    margin-left: 30px;
+    margin-top: 200px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#creditos a {
+    color: white;
+    text-decoration: none;
+}
+
+#corazon {
+    color: brown;
+}
